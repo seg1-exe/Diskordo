@@ -1,0 +1,16 @@
+{
+  "name": "testdiscord",
+  "version": "1.0.0",
+  "description": "test pour projet fac",
+  "main": "index.js",
+  "scripts": {
+    "test": "ping"
+  },
+  "author": "rutabagarre",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "pm2": "^5.2.2"
+  }
+}
