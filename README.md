@@ -14,9 +14,11 @@ npm i
 
 Vous avez plusieurs commandes à disposition, voici une liste décrivant leurs utilités et comment les utiliser:
 
-- ``/question {votre question}`` : cette commande permet à un étudiant de poser une question en utilisant la commande suivie de sa question. Un fil sera créé prenant l'énoncé de la question comme nom du fil. Cela permet donc une meilleure lisibilité des questions et u`n espace unique pour répertorier les réponses.
+- ``/question {votre question}`` : cette commande permet à un étudiant de poser une question en utilisant la commande suivie de sa question. Un fil sera créé prenant l'énoncé de la question comme nom du fil. Cela permet donc une meilleure lisibilité des questions et un espace unique pour répertorier les réponses.
 
 - ``/liens`` : la commande ``liens`` permet de répertorier tout les liens officiels de l'université de La Rochelle. 
+
+- ``/youtube`` : renvoie la dernière video ``youtube`` de la chaîne de l'Université de la Rochelle.
 
 ## Limites
 
