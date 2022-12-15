@@ -1,7 +1,9 @@
 const fs = require('node:fs');
 const path = require('node:path');
+const dotenv = require('dotenv'); dotenv.config();
 const { Client, Events, GatewayIntentBits, Collection } = require('discord.js');
-const { token } = require('./config.json');
+const { token, tokenDatabase } = require('./config.json');
+const mongoose = require ('mongoose');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -43,7 +45,15 @@ client.on(Events.InteractionCreate, async interaction => {
 	}});
 
 client.once(Events.ClientReady, c => {
+
 	console.log(`Ready! Logged in as ${c.user.tag}`);
 });
 
+mongoose.connect(tokenDatabase, {
+	autoIndex: false,
+	maxPoolSize: 10,
+	serverSelectionTimeoutMS: 5000,
+	socketTimeoutMS: 45000,
+	family: 4
+}).then(() => {console.log('connecté à bdd')}).catch(err => {console.log(err);});
 client.login(token);

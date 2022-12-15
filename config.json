@@ -2,5 +2,6 @@
     "token": "MTA0MjM3NDUyMDYwMzk1MTEwNA.GZ7U-z.VwwkmEayEScYUmZHqsHI4KYhRroxCddEifLMgE",
     "main" : "index.js",
     "clientId": "1042374520603951104",
-    "guildId":"591656948164722689"
+    "guildId":"591656948164722689",
+    "databaseToken" : "mongodb+srv://Rutabagarre:38Qy5LTi5ZYzwk8@rutabagarre.ugwkcu1.mongodb.net/?retryWrites=true&w=majority"
 }
