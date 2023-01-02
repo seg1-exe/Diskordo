@@ -1,5 +1,11 @@
 const { SlashCommandBuilder, messageLink } = require('discord.js');
 
+
+/*
+Explication du code :
+
+L'utilisateur réalise la commande /question [argument], grace au getString on récupère l'intitulé de la question afin de créer un channel thread portant comme nom l'intitulé de la question. Le bot mentionne alors le rôle Professeur dans le channel thread créé.
+*/
 module.exports = {
 	data: new SlashCommandBuilder()
     .setName('question')
