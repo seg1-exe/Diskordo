@@ -1,0 +1,20 @@
+{
+  "name": "testdiscord",
+  "version": "1.0.0",
+  "description": "test pour projet fac",
+  "main": "index.js",
+  "scripts": {
+    "test": "ping"
+  },
+  "author": "rutabagarre",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.2.3",
+    "node-superfetch": "^0.3.3",
+    "pm2": "^5.2.2"
+  }
+}
