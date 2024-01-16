@@ -67,4 +67,4 @@ Vous avez plusieurs commandes à disposition, voici une liste décrivant leurs u
 
 ## Licence
 
-Projet réalisé par Alexandre Ecalle, Yasin Lahrouri, Arthur Gillier et Valentin Bouquet.
+Projet réalisé par Arthur Gillier, Yasin Lahrouri, Alexandre Ecalle et Valentin Bouquet.
